@@ -6,6 +6,7 @@
 	--yellow:#fecd00;
 	--white:#ececec;
     --brown:#624220;
+    --green:#3B9C27;
 }
 
 .black{
@@ -33,6 +34,9 @@
 .brown{
     background-color: var(--brown);
 
+}
+.green{
+    background-color: var(--green);
 }
 [class^='col-'] {
     height: 60px;
