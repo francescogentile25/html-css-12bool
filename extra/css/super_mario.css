@@ -5,6 +5,7 @@
 	--blue:#023dcc;
 	--yellow:#fecd00;
 	--white:#ececec;
+    --brown:#624220;
 }
 
 .black{
@@ -29,6 +30,16 @@
 .red{
     background-color: var(--red);
 }
+.brown{
+    background-color: var(--brown);
+
+}
 [class^='col-'] {
-    padding: 20px;
+    height: 60px;
+    width: 60px;
+}
+
+.container{
+    width: 900px;
+    margin: 0 auto;
 }
